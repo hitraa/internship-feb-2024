@@ -1,0 +1,78 @@
+<!--
+form
+input,
+button
+checkbox
+color
+date
+datetime-local
+email
+file
+hidden
+month
+number
+password
+radio
+range
+reset
+search
+submit
+tel
+text
+time
+url
+week
+
+select > optgroup + label > option
+textarea,
+button
+-->
+<fieldset>
+	<legend>Contact Form</legend>
+	<form method="post" action="">
+		<label for="full-name" >Full name</label>
+		<input type="text" name="fullname" id="full-name" />
+		<br />
+		<label>Email</label>
+		<input type="email" name="email" placeholder="user@example.com" />
+		<br />
+		<label>Mobile number</label>
+		<input type="tel" name="mobile" />
+		<br />
+		<label>Age</label>
+		<input type="number" name="age" min="1" max="100" step="5" />
+		<br />
+		<textarea></textarea>
+		<br />
+		
+		<input type="radio" name="batch" /><label>B1</label>
+		<input type="radio" name="batch" /><label>B2</label>
+		<input type="radio" name="batch" /><label>B3</label>
+		<input type="radio" name="batch" /><label>B4</label>
+		
+		<br />
+		<input type="checkbox" /><label>html</label>
+		<input type="checkbox" /><label>css</label>
+		<input type="checkbox" /><label>JS</label>
+		<input type="checkbox" /><label>Java</label>
+		<br />
+		
+		<select multiple>
+			<option value="html">html</option>
+			<option value="css">css</option>
+			<option value="JS">JS</option>
+			<option value="Java">Java</option>
+		</select>
+		<br />
+		<input type="file" accept=".pdf,.png" />
+		<input type="color" />
+		<input type="date" />
+		<input type="week" />
+		<input type="password" />
+		
+		<br />
+		<input type="reset" />
+		<input type="submit" />
+		<button type="button" >Submit</button>
+	</form>
+</fieldset>

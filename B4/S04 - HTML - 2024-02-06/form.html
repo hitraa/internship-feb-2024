@@ -1,0 +1,74 @@
+<!--
+form
+input,
+button
+checkbox
+color
+date
+datetime-local
+email
+file
+hidden
+month
+number
+password
+radio
+range
+reset
+search
+submit
+tel
+text
+time
+url
+week
+
+select > optgroup + label > option
+textarea,
+button
+-->
+<fieldset>
+	<legend>Contact Form</legend>
+	<form method="post" action="">
+		<label for="first-name">First name</label>
+		<input type="text" name="first_name" id="first-name" placeholder="Ashok" />
+		
+		<br />
+		<input type="number" placeholder="Age" />
+		<input type="tel" placeholder="Mobile" />
+		<input type="email" placeholder="Email" />
+		<input type="date" placeholder="Date of birth" />
+		<input type="time" placeholder="Time of birth" />
+		<input type="week" placeholder="Week" />
+		<input type="color" />
+		<br />
+		<input type="file" accept=".png,.svg" multiple />
+		<br />
+		<textarea></textarea>
+		<br />
+		
+		<input type="radio" name="batch" /><label>B1</label>
+		<input type="radio" name="batch" /><label>B2</label>
+		<input type="radio" name="batch" /><label>B3</label>
+		<input type="radio" name="batch" /><label>B4</label>
+		
+		<br />
+		<input type="checkbox" /><label>B1</label>
+		<input type="checkbox" /><label>B2</label>
+		<input type="checkbox" /><label>B3</label>
+		<input type="checkbox" /><label>B4</label>
+		
+		<br />
+		<select name="batch_number" multiple>
+			<option value="1" >B1</option>
+			<option value="2" >B2</option>
+			<option value="3" >B3</option>
+			<option value="4" >B4</option>
+		</select>
+		<br />
+		<input type="password" />
+		<input type="submit" />
+		<button type="button">Send</button>
+		<input type="reset" />
+	</form>
+</fieldset>

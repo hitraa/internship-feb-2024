@@ -1,0 +1,78 @@
+<!--
+form
+input,
+button
+checkbox
+color
+date
+datetime-local
+email
+file
+hidden
+month
+number
+password
+radio
+range
+reset
+search
+submit
+tel
+text
+time
+url
+week
+
+select > optgroup + label > option
+textarea,
+button
+-->
+<fieldset>
+	<legend>Contact Form</legend>
+	<form method="post" action="">
+		<div>
+			<label>Full name</label>
+			<input type="text" placeholder="Arun Patel" name="fullname" />
+		</div>
+		<div>
+			<label>Email</label>
+			<input type="email" placeholder="user@example.com" name="email" />
+		</div>
+		<div>
+			<input type="radio" name="batch" id="batch-b1" />
+			<label for="batch-b1">B1</label>
+			<input type="radio" name="batch" id="batch-b2" />
+			<label>B2</label>
+			<input type="radio" name="batch" id="batch-b3" />
+			<label>B3</label>
+			<input type="radio" name="batch" id="batch-b4" />
+			<label>B4</label>
+		</div>
+		<div>
+			<input type="checkbox" /><label>html</label>
+			<input type="checkbox" /><label>css</label>
+			<input type="checkbox" /><label>javascript</label>
+		</div>
+		<div>
+			<label>Upload file</label>
+			<input type="file" accept=".pdf,.png" />
+			<input type="color" />
+			<input type="date" />
+		</div>
+		<div>
+			<select multiple>
+				<option value="1">B1</option>
+				<option value="2">B2</option>
+				<option value="3">B3</option>
+				<option value="4">B4</option>
+			</select>
+			<textarea rows="5"></textarea>
+		</div>
+		<div>
+			<input type="password" />
+			<input type="submit" value="Send" />
+			<button type="button">Send button</button>
+			<input type="reset" value="Reset Form" />
+		</div>
+	</form>
+</fieldset>
